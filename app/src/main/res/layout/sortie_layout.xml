@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vpdev.ajp.ajp.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/lineair_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+           android:layout_margin="15dp"
+            android:text="Ajouter sortie"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_margin="15dp"
+            android:hint="Entreprise"
+            android:textColorHint="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/EditText_entrerpise"
+            />
+        <EditText
+            android:layout_margin="15dp"
+            android:hint="Date"
+            android:inputType="date"
+            android:textColorHint="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/EditTextdate_sortie"
+
+            />
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Avec Rendez-vous"
+            android:id="@+id/checkbox_avec"
+            android:textAllCaps="true"
+
+            />
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sans Rendez-vous"
+            android:id="@+id/checkbox_sans"
+            android:textAllCaps="true"
+            />
+        <EditText
+            android:layout_margin="15dp"
+            android:hint="Depenses en DT"
+            android:inputType="date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/EditText_depense"
+
+            />
+        <Button
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ButtonEnregistrer"
+            android:text="Enregistrer"
+
+
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

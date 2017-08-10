@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vpdev.ajp.ajp.MainActivity">
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:id="@+id/lineair_layout"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+      <ImageView
+          android:layout_width="150dp"
+          android:layout_height="150dp"
+          android:layout_gravity="center"
+          android:background="@mipmap/ajp"
+          android:layout_margin="40dp"
+          />
+      <EditText
+          android:layout_margin="15dp"
+          android:hint="Enter your Email .."
+          android:inputType="textEmailAddress"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/EditTextloginEmail"
+          />
+      <EditText
+          android:layout_margin="15dp"
+          android:hint="Enter your password .."
+          android:inputType="textPassword"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/EditTextloginpassword"
+
+          />
+      <Button
+          android:layout_margin="15dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/Buttonlogin"
+          android:text="Login user"
+
+
+          />
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Register here ..."
+          android:id="@+id/textview_register"
+          android:gravity="right"
+          android:onClick="onClick"
+          android:clickable="true"
+          />
+
+
+
+
+   </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
